@@ -1,5 +1,5 @@
 <?php 
-$whmcsUrl = "https://my.helhost.com/"; 
+$helhost_url_cp = "https://my.helhost.com/"; 
 $apiIdentifier = "id"; 
 $apiSecret = "secret"; 
  
@@ -13,7 +13,7 @@ $postfields = array(
  
 // Appelez l'API
 $ch = curl_init(); 
-curl_setopt($ch, CURLOPT_URL, $whmcsUrl . 'includes/api.php'); 
+curl_setopt($ch, CURLOPT_URL, $helhost_url_cp . 'includes/api.php'); 
 curl_setopt($ch, CURLOPT_POST, 1); 
 curl_setopt($ch, CURLOPT_TIMEOUT, 30); 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
