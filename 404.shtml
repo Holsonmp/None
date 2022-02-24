@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html >
+<head><meta charset="utf-8">
+    
+    <title>Helhost</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Hébergement web gratuit avec PHP, MySQL, créateur de site web gratuit, cPanel et sans publicité. Hébergement de site web et de domaine gratuit presque illimité">
+    <meta name="keywords" content="helhost, hosting, Domaine">
+	
+        <link rel="shortcut icon" type="image/png" href="//cdn-files.helhost.com/assets/logo/favicon.png" />
+		<meta name="msapplication-TileImage" content="//cdn-files.helhost.com/assets/logo/favicon.png" />
+		<meta name="msapplication-TileColor" content="#ef3139" />
+		<meta name="theme-color" content="#ef3139" />
+		<meta name="primary-color" content="#ef3139" />		
+		<link rel="apple-touch-icon" href="//cdn-files.helhost.com/assets/logo/apple-touch-icon.png" />
+        <meta property="og:image" content="//cdn-files.helhost.com/assets/logo/og_img.png"/>        
+        <meta property="og:locale" content="fr_FR"/>
+        <meta property="og:site_name" content="Helhost"/>
+        <meta property="og:image:width" content="900"/>
+        <meta property="og:image:height" content="750"/>
+        <meta property="og:type" content=website/>
+	
+    <link href="//fonts.googleapis.com/css?family=Playfair+Display%7CBaloo+Bhaijaan%7CRaleway:100,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn-files.helhost.com/error/css/normalize.min.css">
+	<link rel="stylesheet" href="//cdn-files.helhost.com/error/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn-files.helhost.com/error/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdn-files.helhost.com/error/css/style.css">
+    <link rel="stylesheet" href="//cdn-files.helhost.com/error/css/reveal.css">
+</head>
+<body class="colorful">
+  
+
+  <section class="huge-section fluid-container">
+    <div class="row">
+      <div class="huge-side left-side col-xs-12 col-sm-6">
+        <div class="row">
+          <div class="huge-content col-xs-8 col-xs-offset-2">
+            <a href="//helhost.com">
+              <img class="logo" src="//helhost.site/ressources/assets/logo/logo-white.svg" />
+            </a>
+            <h1>404</h1>
+            <h2>La page que vous recherchez n existe pas.</h2>
+            <a class="btn" href="//helhost.com/">
+              Retournez à notre page d accueil
+            </a>
+            <footer>
+              <!--Social Icons-->
+              <ul class="social-icons">
+                <li>
+                  <a href="//facebook.com/Helhost" class="social-icon">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="//twitter.com/Helhost1" class="social-icon">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="//instagram.com/helhost1" class="social-icon">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+              <!--/Social Icons-->
+            </footer>
+          </div>
+        </div>
+      </div>
+      <div class="huge-side right-side col-xs-12 col-sm-6">
+        <div class="huge-background-img">
+          <div id="app">
+            <canvas></canvas>
+          </div>
+          <h3>Laquelle des cases a une couleur irrégulière ?</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="//cdn-files.helhost.com/error/js/jquery.min.js"></script>
+  <script src="//cdn-files.helhost.com/error/js/anime.min.js"></script>
+  <script src="//cdn-files.helhost.com/error/js/reveal.js"></script>
+  <script src="//cdn-files.helhost.com/error/js/konva.js"></script>
+  <script src="//cdn-files.helhost.com/error/js/game.js"></script>
+</body>
+</html>
