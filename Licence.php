@@ -269,7 +269,7 @@ class License
 		$results["status"] = "Active";
 		$results["key"] = $S['licensekey'];
 		$results["registeredname"] = "Holduix";
-		$results["productname"] = "WHMCS 8.4.0";
+		$results["productname"] = "WHMCS 8.4.1";
 		$results["productid"] = "5";
 		$results["billingcycle"] = "One Time";
 		$results["validdomains"] = $this->getHostDomain();
