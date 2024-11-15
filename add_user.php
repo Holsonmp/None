@@ -1,3 +1,4 @@
+<?php
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, 'https://www.helhost.com/includes/api.php');
 curl_setopt($ch, CURLOPT_POST, 1);
